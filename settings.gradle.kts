@@ -1,6 +1,6 @@
 include(":common", ":app", ":wear", ":automotive", ":testing-unit", ":lint")
 
-rootProject.name = "home-assistant-android"
+rootProject.name = "casa-sync-android"
 
 includeBuild("build-logic")
 

@@ -5,18 +5,18 @@ plugins {
     alias(libs.plugins.homeassistant.android.compose)
 }
 
-val homeAssistantAndroidPushUrl: String by project
-val homeAssistantAndroidRateLimitUrl: String by project
+val casaSyncAndroidPushUrl: String by project
+val casaSyncAndroidRateLimitUrl: String by project
 
 val versionName = project.version.toString()
 val versionCode = System.getenv("VERSION_CODE")?.toIntOrNull() ?: 1
 
 android {
-    namespace = "io.homeassistant.companion.android.common"
+    namespace = "in.touchlite.casasync.common"
 
     defaultConfig {
-        buildConfigField("String", "PUSH_URL", "\"$homeAssistantAndroidPushUrl\"")
-        buildConfigField("String", "RATE_LIMIT_URL", "\"$homeAssistantAndroidRateLimitUrl\"")
+        buildConfigField("String", "PUSH_URL", "\"$casaSyncAndroidPushUrl\"")
+        buildConfigField("String", "RATE_LIMIT_URL", "\"$casaSyncAndroidRateLimitUrl\"")
         buildConfigField("String", "VERSION_NAME", "\"$versionName-$versionCode\"")
     }
 }

@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "io.homeassistant.companion.android.testing.unit"
+    namespace = "in.touchlite.casasync.testing.unit"
 
     compileSdk = libs.versions.androidSdk.compile.get().toInt()
 
