@@ -4,7 +4,7 @@ This file provides guidance to any AI tool when working with code/review in this
 
 ## Project Overview
 
-This is the **Home Assistant Companion for Android**, an official Android app for the Home Assistant home automation platform. The app centers around a WebView for Home Assistant's PWA frontend, enhanced with native Android features like background sensor collection, notifications, widgets, and Wear OS support and Android Automotive.
+This is **Casa Sync for Android** by Touchlite Automation, an Android app for smart home automation. The app centers around a WebView for the smart home PWA frontend, enhanced with native Android features like background sensor collection, notifications, widgets, and Wear OS support and Android Automotive.
 This project is entirely made with Kotlin and it should stay like this.
 
 ## Build Commands
