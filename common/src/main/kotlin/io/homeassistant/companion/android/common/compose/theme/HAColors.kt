@@ -11,7 +11,7 @@ import io.homeassistant.companion.android.common.compose.composable.ButtonVarian
 import io.homeassistant.companion.android.common.compose.theme.HAColors.Transparent
 
 /**
- * Defines the core color palette for the Home Assistant application.
+ * Defines the core color palette for the Casa Sync application.
  *
  * ## Core Color Tokens
  *
@@ -37,18 +37,18 @@ private object HAColors {
     val White = Color(0xFFFFFFFF)
     val Transparent = Color(0x00FFFFFF)
 
-    // Primary
-    val Primary05 = Color(0xFF001721)
-    val Primary10 = Color(0xFF002E3E)
-    val Primary20 = Color(0xFF004156)
-    val Primary30 = Color(0xFF006787)
-    val Primary40 = Color(0xFF009AC7)
-    val Primary50 = Color(0xFF18BCF2)
-    val Primary60 = Color(0xFF37C8FD)
-    val Primary70 = Color(0xFF7BD4FB)
-    val Primary80 = Color(0xFFB9E6FC)
-    val Primary90 = Color(0xFFDFF3FC)
-    val Primary95 = Color(0xFFEFF9FE)
+    // Primary - Casa Sync soft blue
+    val Primary05 = Color(0xFF0D2A3D)
+    val Primary10 = Color(0xFF1A4561)
+    val Primary20 = Color(0xFF2D6085)
+    val Primary30 = Color(0xFF4A7BA3)
+    val Primary40 = Color(0xFF5A9BC4)
+    val Primary50 = Color(0xFF7EB3D8)
+    val Primary60 = Color(0xFF96C3E0)
+    val Primary70 = Color(0xFFAED3E8)
+    val Primary80 = Color(0xFFC6E3F0)
+    val Primary90 = Color(0xFFE0F0F8)
+    val Primary95 = Color(0xFFF0F8FC)
 
     // Blue
     val Blue05 = Color(0xFF000F35)
@@ -63,18 +63,18 @@ private object HAColors {
     val Blue90 = Color(0xFFD1E8FF)
     val Blue95 = Color(0xFFE8F3FF)
 
-    // Brand
-    val Brand05 = Color(0xFF00222F)
-    val Brand10 = Color(0xFF003D51)
-    val Brand20 = Color(0xFF004E67)
-    val Brand30 = Color(0xFF007093)
-    val Brand40 = Color(0xFF00A4D4)
-    val Brand50 = Color(0xFF1FBCF1)
-    val Brand60 = Color(0xFF37C8FD)
-    val Brand70 = Color(0xFF7BD4FB)
-    val Brand80 = Color(0xFFB9E6FC)
-    val Brand90 = Color(0xFFDFF3FC)
-    val Brand95 = Color(0xFFEFF9FE)
+    // Brand - Casa Sync green/teal accent
+    val Brand05 = Color(0xFF0D2D1F)
+    val Brand10 = Color(0xFF1A4A35)
+    val Brand20 = Color(0xFF2D6750)
+    val Brand30 = Color(0xFF4A8A6D)
+    val Brand40 = Color(0xFF5AAF85)
+    val Brand50 = Color(0xFF7ECFA4)
+    val Brand60 = Color(0xFF96DBB6)
+    val Brand70 = Color(0xFFAEE7C8)
+    val Brand80 = Color(0xFFC6F0DA)
+    val Brand90 = Color(0xFFE0F8EC)
+    val Brand95 = Color(0xFFF0FCF6)
 
     // Cyan
     val Cyan05 = Color(0xFF00151B)
