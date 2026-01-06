@@ -5,6 +5,9 @@ import org.gradle.api.Project
 import org.gradle.kotlin.dsl.apply
 import org.gradle.kotlin.dsl.configure
 
+// Internal namespace for code structure (must match existing package structure)
+private const val NAMESPACE = "io.homeassistant.companion.android"
+// User-facing application ID for Play Store
 private const val APPLICATION_ID = "in.touchlite.casasync"
 
 /**
@@ -38,7 +41,7 @@ class AndroidApplicationConventionPlugin : Plugin<Project> {
             AndroidComposeConventionPlugin().apply(target)
 
             extensions.configure<ApplicationExtension> {
-                namespace = APPLICATION_ID
+                namespace = NAMESPACE
 
                 defaultConfig {
                     applicationId = APPLICATION_ID

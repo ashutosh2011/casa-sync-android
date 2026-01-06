@@ -12,7 +12,7 @@ val versionName = project.version.toString()
 val versionCode = System.getenv("VERSION_CODE")?.toIntOrNull() ?: 1
 
 android {
-    namespace = "in.touchlite.casasync.common"
+    namespace = "io.homeassistant.companion.android.common"
 
     defaultConfig {
         buildConfigField("String", "PUSH_URL", "\"$casaSyncAndroidPushUrl\"")
